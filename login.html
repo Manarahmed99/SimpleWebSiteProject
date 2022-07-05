@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Angle Galleary</title>
+    <!-- font awesome  link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- css file  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google font link  -->
+</head>
+<body>
+    <!--Header section-->
+    <header class="header">
+      <div class="container">
+               <div class="header-main">
+                  <div class="logo">
+                   <a  class="logo" href="HomePage.html">Art Angle</a>
+                  </div>
+                  <nav class="nav-menu">
+                    <ul class="menu">
+                      <li class="menu-item">
+                         <a href="HomePage.html">Home</a>
+                      </li>
+                      <li class="menu-item">
+                         <a href="#">About us</a>
+                      </li>
+                      <li class="menu-item">
+                         <a href="#">Artist</a>
+                      </li>
+                      <li class="menu-item ">
+                         <a href="#">Type Of Art</a>
+                      </li>
+                      <li class="menu-item">
+                         <a href="#">Purchase </a>
+                      <li class="menu-item">
+                         <a href="#">contact</a>
+                      </li>
+                    </ul>
+                  </nav><!-- navigation menu end --> 
+                  <div class="icons">
+                   <li class="menu-item"><a href="login.html"><i class="fas fa-user" id="login-btn"></a></i></li>
+               </div> 
+            </div>
+         </div>
+         </header>
+         <!-- header end -->
+
+<!-- login form container  -->
+<!--
+    login:
+   https://www.youtube.com/watch?v=nPZp-YNPyC8&t=1880s
+-->
+
+<div class="login-form-container">
+    <form name="myForm" action="" id="fromid" >
+        <h3>login</h3>
+        <label for="email">Email:</label>
+        <input type="email" class="box" placeholder="enter your email" value=" " name="email" id="email">
+        <label for="password">Password:</label>
+        <input type="password" class="box" placeholder="enter your password" value="" id="password" name="password">
+        <h2>Are you:</h2>
+        <input type="radio" name="job" id="Artist" value="Artist" >
+        <label for="Artist">Artist</label><br>
+        <input type="radio" name="job" id="customer " value="customer" >
+        <label for="customer ">customer </label><br>
+        <input type="submit" value="login now" class="btn" onclick="validate();" id="submit" >
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+</div>
+<!-- footer start -->
+<div class="footer-basic">
+   <footer>
+       <div class="social">
+         <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+         <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+         <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+       </div>
+       <ul class="list-inline">
+           <li class="list-inline-item"><a href="HomePage.html">Home</a></li>
+           <li class="list-inline-item"><a href="#">About us</a></li>
+           <li class="list-inline-item"><a href="#">Artist</a></li>
+           <li class="list-inline-item"><a href="#">Type Of Art</a></li>
+           <li class="list-inline-item"><a href="#">Purchase </a></li>
+           <li class="list-inline-item"><a href="#">contact</a></li>
+       </ul>
+       <p class="copyright">Art Angle Galleary  © </p>
+   </footer>
+ </div>
+ 
+ <!-- footer end -->
+     <!--js file-->
+     <script src="script.js"></script>
+     <!---->
+ </body>
+ </html>
+
